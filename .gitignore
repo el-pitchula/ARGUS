@@ -1,0 +1,53 @@
+﻿# ==========================================
+# ARGUS - Sensitive and private information
+# ==========================================
+
+# Private investigations and original evidence
+ARGUS_PRIVATE/
+private/
+real_cases/
+evidence_originals/
+05_LAB/CASES_REAL/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+token.json
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+temp/
+tmp/
+outputs/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Obsidian local workspace
+.obsidian/workspace.json
